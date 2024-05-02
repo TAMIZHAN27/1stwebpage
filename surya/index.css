@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size:50px;
+}
+p{
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+img.su{
+
+    width: 400px;
+    height:400px;
+    padding-left: 33%;
+    
+}
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: white;
+    font-size: 50px;
+    /* Larger, responsive font size */
+    margin-bottom: 20px;
+    padding: 40px;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+p.prakash{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
+}
+footer{
+    background-color:rgb(143, 137, 137);
+    color: black;
+}
